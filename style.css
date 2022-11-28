@@ -1,0 +1,18 @@
+*{
+    background-color:darkcyan;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+#wrapper{
+    max-width: 1000px;
+    margin: auto;
+}
+
+#container{
+    display: flex;
+    justify-content: space-around;
+}
