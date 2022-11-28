@@ -7,22 +7,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    
+
 </head>
 
 <body>
     <h1>Rock paper scissors</h1>
     <div id="wrapper">
-    <div id="container">
-        <div>
-            <span id="playerScore">Player Score: 0</span>
+        <div id="container">
+            <div id="playerDiv">
+                <p id="playerScore">Player Score: 0</p>
+                <p id="playerChoice"></p>
+            </div>
+            <div id="computerDiv">
+                <p id="computerScore">Computer Score: 0</p>
+                <p id="computerChoice"></p>
+            </div>
         </div>
-        <div >
-            <span id="computerScore">Computer Score: 0</span>
+        
+        <div id="container2">
+        <p >please enter your answer here (Rock, Paper or Scissors)</p>
+        <input id="playerAnswer" type="text"> 
+        <p id="displayMessage"></p>
+        <button id="submitChoice">Sumbit Choice</button>
         </div>
     </div>
-</div>
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
