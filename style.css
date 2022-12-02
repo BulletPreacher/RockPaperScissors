@@ -1,5 +1,6 @@
 *{
     background-color:darkcyan;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 h1{
@@ -32,4 +33,35 @@ h1{
     display: flex;
     margin:auto;
     background-color: white;
+}
+
+#row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.choice{
+    width: 150px;
+    height: 100px;
+    border: 5px solid black;
+    border-radius: 10%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#rockChoice{
+    background-color: grey;
+}
+
+#paperChoice{
+    background-color: white;
+}
+
+#scissorsChoice{
+    background-color: red;
+}
+
+.choice:active{
+    scale: 1.05;
+
 }
